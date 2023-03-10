@@ -69,7 +69,7 @@ html {
 
 .accordion__input:hover~.accordion__icon,
 .accordion__input:checked~.accordion__icon {
-    background-image: url(icon/xmark.svg);
+    transform: rotate(45deg);
 }
 
 .accordion__item:hover .accordion__content,
