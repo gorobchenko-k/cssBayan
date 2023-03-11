@@ -2,10 +2,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-html {
-    font-size: 14px;
-}
-
 .accordion__title {
     font-size: 2.4rem;
 }
@@ -20,8 +16,8 @@ html {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 20px 0;
-    border-top: 1px solid #eee;
+    padding: 1.5rem 0;
+    border-top: 0.1rem solid #eee;
     cursor: pointer;
 }
 
@@ -71,7 +67,7 @@ html {
 }
 
 .accordion__input:checked~.accordion__content {
-    margin-top: 20px;
+    margin-top: 1.5rem;
     transform: scale(1);
     max-height: 100vh;
 }
@@ -106,7 +102,7 @@ html {
     }
 
     .accordion__item:hover .accordion__content {
-        margin-top: 20px;
+        margin-top: 1.5rem;
         transform: scale(1);
         max-height: 100vh;
     }
